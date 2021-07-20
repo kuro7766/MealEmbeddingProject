@@ -17,5 +17,6 @@ jobs:
       with:
         channel: beta
     - run: flutter pub get
+    - run: flutter config --enable-linux-desktop
 #     - run: flutter build web --dart-define=FLUTTER_WEB_CANVASKIT_URL=https://cdn.jsdelivr.net/npm/canvaskit-wasm@0.24.0/bin/
     - run: flutter build linux
